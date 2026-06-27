@@ -9,7 +9,7 @@ FROM superstore;
 
 SELECT *
 FROM superstore
-WHERE Region = 'West';
+WHERE Region = 'South';
 
 --------------------------------------------------
 
@@ -17,7 +17,7 @@ WHERE Region = 'West';
 
 SELECT *
 FROM superstore
-WHERE Category = 'Technology';
+WHERE Category = 'Furniture';
 
 --------------------------------------------------
 
