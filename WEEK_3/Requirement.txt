@@ -1,1 +1,5 @@
+Google Colab or Jupyter Notebook
+Pandas Library
 
+Dataset
+Superstore Sales Dataset (CSV format)
