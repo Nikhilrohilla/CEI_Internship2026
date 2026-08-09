@@ -28,6 +28,7 @@ CEI-2026/
 ├── Week-5/
 ├── Week-6/
 ├── Week-7/
+├── Week-8/
 └── README.md
  
  
@@ -46,6 +47,7 @@ Each folder contains the assignment, notebook, datasets (if applicable), and sup
 | Week 5 | Apache Spark Data Processing using PySpark | ✅ Completed |
 | Week 6 | Apache Spark & PySpark — Retail Analytics Pipeline | ✅ Completed |
 | Week 7 | Python Basics — Data Exploration & Cleaning using Pandas | ✅ Completed |
+| Week 8 | Online Marketplace Customer & Order Intelligence System | ✅ Completed |
  
 ---
  
@@ -307,9 +309,68 @@ cleaned dataset.
 - Brief Assignment Summary (assignment_summary.md)
 ---
  
+
+# 🛒 Week 8 — Online Marketplace Customer & Order Intelligence System
+
+### Objective
+
+Build a production-oriented customer and order intelligence system for an online marketplace using Python, Pandas, SQL, and SQLite. The project combines data generation, data-quality engineering, relational database design, advanced SQL analytics, customer lifecycle analysis, product intelligence, cohort retention, segmentation, reporting, and automated testing.
+
+### Key Tasks
+
+- Designed an independent marketplace-oriented relational data model covering customers, products, orders, order lines, and returns.
+- Generated reproducible synthetic datasets with realistic purchasing behavior, customer lifecycle patterns, regional differences, product demand, discounts, fulfillment outcomes, and return behavior.
+- Injected controlled data-quality issues including invalid emails, duplicate records, missing references, malformed dates, invalid quantities, invalid discounts, and inconsistent text formatting.
+- Implemented a dedicated data-cleaning and validation layer using Pandas.
+- Applied standardization, correction, rejection, and quarantine strategies rather than silently deleting problematic records.
+- Generated formal data-quality reports covering initial rows, invalid rows, corrected rows, removed rows, remaining rows, issue types, issue counts, and resolutions.
+- Built a normalized SQLite database with primary keys, foreign keys, CHECK constraints, and indexes.
+- Developed SQL analytics for category revenue, customer lifetime value, monthly trends, fulfillment outcomes, return behavior, customer segments, and regional contribution.
+- Implemented advanced SQL using JOINs, GROUP BY, HAVING, subqueries, CTEs, and window functions.
+- Applied ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD(), FIRST_VALUE(), LAST_VALUE(), and NTILE() to answer customer, product, and revenue intelligence questions.
+- Built customer purchase-frequency and inactivity analysis to identify potential churn-risk customers.
+- Implemented customer segmentation using measurable behavioral metrics such as lifetime value, recency, purchase frequency, and average order value.
+- Built cohort retention analysis by signup month and calculated Month 0 through Month 3 retention.
+- Performed product-pair analysis using self joins to identify products frequently purchased together.
+- Analyzed discount behavior, product returns, regional revenue, category performance, and customer value distribution.
+- Developed a command-line reporting application supporting daily, weekly, monthly, and custom date-range reports.
+- Added period-over-period comparisons for revenue, orders, customers, and other business metrics.
+- Created analytical visualizations for revenue, returns, customer value, retention, cohorts, and product combinations.
+- Implemented automated tests for validation and business edge cases.
+- Performed a final requirement-to-implementation audit to verify that the complete pipeline executes successfully.
+
+### Technologies Used
+
+- Python
+- Pandas
+- SQLite
+- SQL
+- Python Standard Library
+- unittest
+- Matplotlib
+- Jupyter Notebook / Google Colab
+
+### Deliverables
+
+- Complete Marketplace Analytics source code
+- Synthetic raw datasets
+- Cleaned datasets
+- Rejected/quarantine datasets
+- SQLite database
+- SQL schema and analytical query files
+- Data-quality report
+- Customer segmentation analysis
+- Cohort retention analysis
+- CLI reporting application
+- Analytical charts
+- Automated test suite
+- Internship project report
+- Requirement-to-implementation audit
+- Professional GitHub README
+
 ## 🛠️ Skills Developed
  
-Throughout this internship, I aim to strengthen my skills in:
+Throughout this internship, I have strengthened and continue to develop my skills in:
  
 - Python Programming
 - SQL & Database Management
@@ -323,6 +384,12 @@ Throughout this internship, I aim to strengthen my skills in:
 - Big Data Processing with Apache Spark & PySpark
 - Data Visualization
 - Artificial Intelligence
+- Customer Lifecycle Analytics
+- Cohort Retention Analysis
+- Customer Segmentation
+- Product & Return Analytics
+- Command-Line Reporting
+- Automated Data-Quality Testing
 ---
  
 ## 🎯 Internship Goal
@@ -333,7 +400,7 @@ To gain practical industry experience by solving real-world business problems, b
  
 ## 📌 Note
  
-This repository will be updated regularly as new assignments and projects are completed during the CEI 2026 program.
+This repository documents my progress through the first eight weeks of the CEI 2026 program and will continue to be updated as the internship progresses.
  
 ---
  
